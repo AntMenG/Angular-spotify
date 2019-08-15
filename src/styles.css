@@ -1,1 +1,24 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+    color: rgb(172, 184, 182);
+    background: rgb(19, 19, 19);
+}
+
+.white {
+    color: rgb(172, 184, 182);
+}
+
+.fadeIn {
+    animation: fadeIn 1s;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px) scale(0.9);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0px) scale(1);
+    }
+}
